@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using TriangleTracker;
 
-namespace ProjectNameTests {
+namespace TriangleTrackerTests {
     [TestClass]
-    public class ClassNameTests {
+    public class TriangleTests {
         // Test methods go here
         [TestMethod]
         public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue () 

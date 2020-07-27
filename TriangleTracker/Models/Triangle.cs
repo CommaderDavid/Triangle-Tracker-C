@@ -1,6 +1,6 @@
-namespace ProjectName 
+namespace TriangleTracker 
 {
-    public class ClassName 
+    public class Triangle 
     {
         // properties, constructors, methods, etc. go here
     }
