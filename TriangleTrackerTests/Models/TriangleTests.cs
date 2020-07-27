@@ -6,10 +6,10 @@ namespace TriangleTrackerTests {
     public class TriangleTests {
         // Test methods go here
         [TestMethod]
-        public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue () 
+        public void IsEquilateral_AllSidesEqual_True () 
         {
             // any necessary logic to prep for test; instantiating new classes, etc.
-            // Assert.AreEqual (EXPECTED RESULT, CODE TO TEST);
+            Assert.AreEqual ("EXPECTED RESULT, CODE TO TEST");
         }
     }
 }
