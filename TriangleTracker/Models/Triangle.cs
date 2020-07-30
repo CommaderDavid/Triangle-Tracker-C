@@ -23,7 +23,7 @@ namespace TriangleTracker.Models
             {
                 return "Your triangle is an Equilateral triangle";
             }
-
+            
             else
             {
                 return "That is not a Triangle";
