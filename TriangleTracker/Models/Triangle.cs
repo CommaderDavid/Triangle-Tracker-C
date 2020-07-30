@@ -19,9 +19,9 @@ namespace TriangleTracker.Models
         // methods
         public string GetTriangleType()
         {
-            if (Side1 == Side2 && Side2 == Side3)
+            if (Side1 + Side2 <= Side3 || Side2 + Side3 <= Side1 || Side1 + Side3 <= Side2)
             {
-                return "Your triangle is an Equilateral triangle";
+                return "That is not a Triangle, seriously, what is that?";
             }
 
             else if (Side1 == Side2 || Side2 == Side3)
@@ -29,9 +29,14 @@ namespace TriangleTracker.Models
                 return "Your Triangle is an Isosceles triangle";
             }
 
+            else if (Side1 == Side2 && Side2 == Side3)
+            {
+                return "Your triangle is an Equilateral triangle";
+            }
+
             else
             {
-                return "That is not a Triangle";
+                return "Something go mixed up. Try again.";
             }
         }
 
