@@ -16,6 +16,9 @@
 4. If no sides are the same, Return "Scalene"
       * **Input**: "2", "4", "3"
       * **Output**: "Your triangle is a Scalene triangle"
+5. If one side is longer that the other 2 combined, it is not a triangle.
+      * **Input**: "4" "3" "15"
+      * **Output**: "This is not a triangle. Seriously, what is this?"
 ### Setup
 *
 ### Contact
