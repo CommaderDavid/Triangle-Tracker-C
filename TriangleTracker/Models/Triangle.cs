@@ -24,7 +24,7 @@ namespace TriangleTracker.Models
                 return "That is not a Triangle, seriously, what is that?";
             }
 
-            else if (Side1 == Side2 || Side2 == Side3)
+            else if ((Side1 == Side2 && Side1 != Side3) || (Side2 == Side3 && Side2 != Side1) || (Side1 == Side3 && Side1 != Side2))
             {
                 return "Your Triangle is an Isosceles triangle";
             }
