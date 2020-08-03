@@ -28,6 +28,13 @@ namespace TriangleTrackerTests
             Triangle testScaleneTriangle = new Triangle(3, 4, 6);
             Assert.AreEqual("Your Triangle is an Scalene triangle.", testScaleneTriangle.GetTriangleType());
         }
+
+        [TestMethod]
+        public void IsNotTriangle_OneSideToBig_True()
+        {
+            Triangle testNotTrianglge = new Triangle(6, 3, 10);
+            Assert.AreEqual("That is not a Triangle, seriously, what is that?", testNotTrianglge.GetTriangleType());
+        }
     }
 }
 
