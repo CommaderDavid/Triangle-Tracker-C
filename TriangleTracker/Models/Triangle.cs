@@ -29,6 +29,11 @@ namespace TriangleTracker.Models
                 return "Your Triangle is an Isosceles triangle";
             }
 
+            else if (Side1 != Side2 && Side2 != Side3 && Side1 != Side3)
+            {
+                return "Your Triangle is an Scalene triangle.";
+            }
+
             else if (Side1 == Side2 && Side2 == Side3)
             {
                 return "Your triangle is an Equilateral triangle";
